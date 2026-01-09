@@ -53,3 +53,9 @@ selecteur {
     propriete2 : valeur2;
 }
 ```
+
+Il existe plus de 500 propriétés et encore d'avantages de valeurs possibles. Cependant, les valeurs sont souvent :
+- une couleur
+- une taille
+
+Rem : on trouve toutes les propriétés sur le site ds développeurs de Mozilla.
