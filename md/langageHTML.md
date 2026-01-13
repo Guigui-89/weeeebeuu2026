@@ -72,5 +72,15 @@ La bordureborder  peut elle-même avoir un style.
 
 Remarque : les conteurs universels sont `<div></div>` et `<span></span>`.
 
-Il existe de nombreuses propriétés relaives au texte:
-- 
+Il existe de nombreuses propriétés relaives au texte.
+
+3.Javascript
+
+C'est le langage de programmation qui permet de gérer les éléments interactifs d'une page HTML.
+
+Historiquement, les éléments d'interactions étaient placés dans un formulaire `<form></form>` pour renvoyer les informations au serveur.
+
+Dans le formulaire, on place les éléments `<input type="">` :
+- type="texte"
+- type="checkbox"
+- type="button"
