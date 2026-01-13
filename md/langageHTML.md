@@ -59,3 +59,18 @@ Il existe plus de 500 propriétés et encore d'avantages de valeurs possibles. C
 - une taille
 
 Rem : on trouve toutes les propriétés sur le site ds développeurs de Mozilla.
+
+Les propriétés CSS s'appliquent en cascade, des éléments les plus globaux (`body`, `div`) vers les éléments les plus internes (pour finir par les classes).
+
+Remarque : principe du modèle en boite.
+Les éléments d'une page sont contenus dans une boite entourée d'une bordure (invisible par défaut).
+L'espace entre :
+- le contenu et la bordure s'appelle `padding`
+- la bordure et les éléments autour s'appelle `margin`.
+
+La bordureborder  peut elle-même avoir un style.
+
+Remarque : les conteurs universels sont `<div></div>` et `<span></span>`.
+
+Il existe de nombreuses propriétés relaives au texte:
+- 
