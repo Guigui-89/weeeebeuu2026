@@ -74,6 +74,7 @@ Remarque : les conteurs universels sont `<div></div>` et `<span></span>`.
 
 Il existe de nombreuses propriétés relaives au texte.
 
+
 3.Javascript
 
 C'est le langage de programmation qui permet de gérer les éléments interactifs d'une page HTML.
@@ -84,3 +85,19 @@ Dans le formulaire, on place les éléments `<input type="">` :
 - type="texte"
 - type="checkbox"
 - type="button"
+- type="range"
+
+Remarque : Une balise `<button type="button></button>` a été spécifiquement créée pour les boutons.
+
+On peut écrire le javascript directement :
+- dans le fichier html entre des balises `<script></script>`
+- dans un fichier externe avec l'extension .js.
+
+JS est utile pour réagir aux évènements : `click`, `change`, `mouseover`, ...
+
+La syntaxe basique est :
+```js
+elementHTML.addEventListener('evenement', function() {...});
+
+
+```
