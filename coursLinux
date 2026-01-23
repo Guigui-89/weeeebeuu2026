@@ -49,9 +49,18 @@ Il existe une commande qui affiche le manuel/la doc d'une autre commande passée
 
 Syntaxe générale :   nom --option argument  ou  nom -option argument
 
-|nom|role|exemple|
+|nom|rôle|exemple|
 |----|----|----|
-|whoami|affiche le nom de l'utilisateur|$ whoami|
-|man|affiche le manuel d'une autre commande|$ man whoami|
-|touch|créer un fichier *vide*|$ touch monfichier|
-|ls|liste le contenu d'un dossier|$ ls|q
+|`whoami`|affiche le nom de l'utilisateur|`$ whoami`|
+|`man`|affiche le manuel d'une autre commande|`$ man whoami`|
+|`touch`|créer un fichier *vide*|`$ touch monfichier`|
+|`ls`|liste le contenu d'un dossier|`$ ls -l`|
+|`mkdir`|créer un dossier *vide*|`$ mkdir monDossier`|
+|nano|editer un fichier|$ nano monFichier|
+|cat|affiche le contenu des fichier|$ cat monFichier|
+
+
+Pour éditer un fichier, plusieus commandes sont possibles :
+- nano (dans ce cours)
+- vi
+- emacs
